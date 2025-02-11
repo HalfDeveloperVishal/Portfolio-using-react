@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./SkillsSection.module.css";
-import HtmlImg from "./htmlimg.jpg";
+import HtmlImg from './htmlimg.jpg'
 import CssImg from "./Cssimg.jpg"
 import Javascript from "./JavaScriptImg.jpg"
 import ReactImg from "./ReactImg.jpg"
