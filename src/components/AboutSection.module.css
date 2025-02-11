@@ -1,0 +1,46 @@
+.aboutSection {
+  width: 100%;
+  margin-top: 1px;
+  text-align: left; /* Align text to the left */
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #34353a !important;
+}
+
+/* About heading */
+.heading {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  text-align: left; /* Align the heading to the left */
+}
+
+/* Paragraph styling */
+.description {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left; /* Align paragraph text to the left */
+  margin-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .aboutSection {
+    text-align: center; /* Center content on smaller screens */
+  }
+
+  .heading {
+    text-align: center; /* Center the heading */
+  }
+
+  .description {
+    text-align: center; /* Center the paragraphs */
+  }
+}

@@ -1,0 +1,78 @@
+.developerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #34353a !important;
+  padding-top: 50px;
+  margin-top: 1px;
+}
+
+/* Left Side - Developer Info */
+.developerInfo {
+  flex: 1;
+  max-width: 50%;
+}
+
+.developerInfo h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.developerInfo p {
+  font-size: 20px;
+  color: white;
+  margin: 10px 0;
+}
+
+.contactBtn {
+  background-color: #34353a;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.contactBtn:hover {
+  background-color: #0056b3;
+  border: 1px solid #0056b3;
+}
+
+/* Right Side - Developer Photo */
+.developerPhoto img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.developerPhoto:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .developerSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .developerInfo {
+    max-width: 100%;
+  }
+
+  .developerPhoto {
+    margin-top: 20px;
+  }
+}

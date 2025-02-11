@@ -1,0 +1,48 @@
+.footer {
+  background-color:#34353a !important;
+  color: white;
+  text-align: center;
+  margin-top: 1px;
+  padding-bottom: 30px;
+}
+
+.heading {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.contactBox {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  width: 300px;
+  height: 45px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactBox:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #f39c12;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}

@@ -1,0 +1,30 @@
+.skillsSection {
+  text-align: center;
+  padding: 40px;
+  background-color: #34353a !important;
+}
+
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cardConatiner{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap; /* This allows the cards to wrap on smaller screens */
+  gap: 50px; /* Add space between cards */
+  margin-top: 40px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}

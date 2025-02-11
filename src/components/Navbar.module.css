@@ -1,0 +1,29 @@
+.navbarCustom {
+  background-color: #34353a !important; 
+  /* padding: 15px; */
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navRight {
+  gap: 20px;
+}
+
+.navLink:hover {
+  color: #f4a261 !important; /* Change to orange when hovered */
+  /* text-decoration: underline; */
+}
+
+.container {
+  margin-top: -40px;
+}
+
+@media (min-width: 984px) {
+  .container {
+    margin-top: 10px;
+  }
+}
