@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./SkillsSection.module.css";
-import HtmlImg from './htmlimg.jpg'
-import CssImg from "./Cssimg.jpg"
-import Javascript from "./JavaScriptImg.jpg"
-import ReactImg from "./ReactImg.jpg"
-import PythonImg from "./PythonImg.jpg"
+import HtmlImg from '../assets/htmlimg.jpg'
+import CssImg from "../assets/Cssimg.jpg"
+import Javascript from "../assets/JavaScriptImg.jpg"
+import ReactImg from "../assets/ReactImg.jpg"
+import PythonImg from "../assets/PythonImg.jpg"
 
 const SkillsSection = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HeroSection.module.css"
-import profileImage from "./portfolioimg.jpg";
+import profileImage from "../assets/portfolioimg.jpg";
 const HeroSection = ()=>{
     return (
         <div className={styles.developerSection}>

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import project1 from "./portfolioimg.jpg";
-import project2 from "./portfolioimg.jpg";
-import project3 from "./portfolioimg.jpg";
-import project4 from "./portfolioimg.jpg";
+import project1 from "../assets/portfolioimg.jpg";
+import project2 from "../assets/portfolioimg.jpg";
+import project3 from "../assets/portfolioimg.jpg";
+import project4 from "../assets/portfolioimg.jpg";
 
 const Projects = () => {
   const projectData = [
