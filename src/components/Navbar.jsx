@@ -1,6 +1,14 @@
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
+
+  const handleScrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <header className={`p-3 text-bg-dark ${styles.navbarCustom}`}>
@@ -36,6 +44,11 @@ const Navbar = () => {
                 <a
                   href="#"
                   className={`nav-link px-2 text-white ${styles.navLink}`}
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+                    handleScrollToSection("about");
+                  }}
+                
                 >
                   About
                 </a>
@@ -44,6 +57,10 @@ const Navbar = () => {
                 <a
                   href="#"
                   className={`nav-link px-2 text-white ${styles.navLink}`}
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+                    handleScrollToSection("project");
+                  }}
                 >
                   Projects
                 </a>
@@ -52,6 +69,10 @@ const Navbar = () => {
                 <a
                   href="#"
                   className={`nav-link px-2 text-white ${styles.navLink}`}
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+                    handleScrollToSection("ContactMe");
+                  }}
                 >
                   Contact
                 </a>
