@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import project1 from "../assets/portfolioimg.jpg";
-import project2 from "../assets/portfolioimg.jpg";
-import project3 from "../assets/portfolioimg.jpg";
-import project4 from "../assets/portfolioimg.jpg";
+import project1 from "../assets/Project1.jpeg";
+import project2 from "../assets/Project2.jpeg";
 
 const Projects = () => {
   const projectData = [
-    { id: 1, image: project1, title: "Project One", description: "This is a responsive website built with React." },
-    { id: 2, image: project2, title: "Project Two", description: "A modern web application with dynamic features." },
-    { id: 3, image: project3, title: "Project Three", description: "A portfolio project showcasing UI/UX design." },
-    { id: 4, image: project4, title: "Project Four", description: "A full-stack project using MERN stack." },
+    { id: 1, image: project1, title: "E-Commerce Website", description: "This is a responsive website built with ReactJS." },
+    { id: 2, image: project2, title: "Food Ordering Website", description: "A modern web application with dynamic features which is Fully responsive and made using ReactJs." },
+    
   ];
 
   return (
